@@ -8,6 +8,7 @@ struct Process {
     int turnaround_time;
     int waiting_time;
 };
+
 void fcfs_scheduling(struct Process processes[], int n) {
     int i,j;
     for (i = 0; i < n - 1; i++) {
